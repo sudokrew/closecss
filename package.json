@@ -18,5 +18,8 @@
   "homepage": "https://github.com/jaywon/close-css",
   "devDependencies": {
     "tape": "^4.5.1"
+  },
+  "dependencies": {
+    "cssjson": "^2.1.3"
   }
 }
