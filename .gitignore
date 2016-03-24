@@ -1,1 +1,3 @@
 node_modules
+*.close
+*.css
