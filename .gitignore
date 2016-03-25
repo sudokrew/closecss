@@ -1,3 +1,4 @@
-node_modules
+node_modules/*
 *.close
 *.css
+!node_modules/closecss/
