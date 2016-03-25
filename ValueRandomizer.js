@@ -1,11 +1,27 @@
 var colors = ['red', 'blue', 'yellow', 'green', 'orange', 'purple', 'grey', 'white', 'black', 'whatever'];
+var borderRadius = ['roundish', 'curvish', 'squarish'];
 
-function color (value){
-  for (var i = 0; i < colors.length; i++){
-    if (value.indexOf(colors[i]) > - 1){
-      return randomColor(value);
+// For deciding things randomly
+function flip(){
+  x = (Math.floor(Math.random() * 2) === 0);
+  if (x){
+    return 1;
+  }else{
+    return 0;
+  }
+}
+
+function randomBorderRadius(border){
+  switch (border){
+    case 'roundish':
+      return '50%';
       break;
-    }
+    case 'curvish':
+      return '25%';
+      break;
+    case 'squarish':
+      return '10%';
+      break;
   }
 }
 
