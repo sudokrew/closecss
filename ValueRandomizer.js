@@ -43,9 +43,6 @@ function randomColor(color){
     case 'blackish':
       return '#000000';
       break;
-    case 'whatever':
-      return '#' + randomHex;
-      break;
   }
 }
 
