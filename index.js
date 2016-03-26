@@ -1,25 +1,18 @@
-'use strict'
-var fs = require('fs');dd
-var postcss = require('postcss');
+'use strict';
+var postcss   = require('postcss');
+var fs        = require('fs');
+var closecss  = require('closecss');
 
-var source = process.argv.splice(2)[0];
-var target = source.substring(0, source.lastIndexOf('.')) + '.css';
+var source = 'src/styles.close';
+var target = 'dest/styles.css';
 
-module.exports = postcss.plugin('closecss', function (opts){
-  return function (css){
-    opts = opts || {};
-
-    css.walkRules(function(rule){
-      rule.walkDecls(function(decl){
-        if(value.indexOf('somewhat(') !== -1){
-          console.log('somewhat found!');
-        }
-      });
+var processor = postcss([closecss]);
+var css = fs.readFile(source, 'utf-8', function (err, data){
+  if(err) return console.log(err);
+  processor
+    .process(data, {from: source, to: target})
+    .then(function(result) {
+      fs.writeFile(target, result);
     });
-
-    css.eachDecl(function transformDecl(decl){
-      console.log(decl.prop);
-      console.log(decl.value);
-    });
-  };
 });
+
