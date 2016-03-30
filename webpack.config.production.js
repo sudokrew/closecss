@@ -15,12 +15,13 @@ config.module.loaders.push({
   test: /\.scss$/,
   loader: ExtractTextPlugin.extract(
     'style-loader',
-    'css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!sass-loader!postcss-loader' // eslint-disable-line
+    'css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!postcss-loader!sass-loader' // eslint-disable-line
   ),
 });
 
 config.postcss = function postcss() {
   return [
+    require('lost'),
     require('postcss-cssnext')({ browsers: ['last 2 versions', 'IE > 10'] }),
   ];
 };

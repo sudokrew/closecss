@@ -27,13 +27,14 @@ config.module.loaders.push({
   loaders: [
     'style-loader',
     'css-loader?modules&sourceMap&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]',
-    'sass-loader?sourceMap',
     'postcss-loader',
+    'sass-loader?sourceMap',
   ],
 });
 
 config.postcss = function postcss() {
   return [
+    require('lost'),
     require('postcss-cssnext')({ browsers: ['last 2 versions', 'IE > 10'] }),
   ];
 };
