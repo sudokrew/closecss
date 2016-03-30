@@ -1,5 +1,18 @@
-@import '~styles/utils/colors';
+@import '~styles/utils/variables';
 
 .heading {
   color: rgba($primary, 0.75);
+}
+
+.section {
+  lost-center: $container;
+  div {
+    lost-column: 1;
+    @media #{$screen-small} {
+      lost-column: 1/2 2;
+    }
+    @media #{$screen-medium} {
+      lost-column: 1/3;
+    }
+  }
 }
