@@ -1,0 +1,15 @@
+@import '~styles/utils/colors';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: $white-smoke;
+  color: #4d4d4d;
+  font-family: Helvetica Neue, Helvetica, Arial;
+  font-weight: 300;
+}
