@@ -16,7 +16,7 @@ module.exports = {
         loader: 'json-loader',
       },
       {
-        test: /\.jpe?g$|\.gif$|\.png$/i,
+        test: /\.svg$|\.jpe?g$|\.gif$|\.png$/i,
         loader: 'url-loader?limit=10000',
       },
     ],
