@@ -9,8 +9,8 @@
 body {
   height: 100vh;
   background: $lite;
-  color: #4d4d4d;
+  color: $dark;
   font-family: $base-font-family;
   -webkit-font-smoothing: antialiased;
-  font-weight: 300;
 }
+

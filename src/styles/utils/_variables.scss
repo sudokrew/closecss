@@ -6,7 +6,8 @@ $base-font-family: "Avenir Next", Avenir, "Helvetica Neue", Helvetica, Arial, "L
 $code-font-family: Monaco, Consolas, "Courier New", monospace;
 
 // Grid/Layout
-$container: 64rem 1rem flex;
+$contianer-width: 64rem;
+$container: $contianer-width 1rem flex;
 
 // Screen sizes
 $screen-xlarge: 'screen and (min-width: 80em)'; // 1280px

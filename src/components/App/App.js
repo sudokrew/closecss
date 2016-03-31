@@ -1,17 +1,17 @@
 import React from 'react';
-import styles from './App.scss';
+import Nav from 'components/Nav';
 import Logo from 'components/Logo';
+import styles from './App.scss';
 
 const App = () => (
-  <div className="container">
-    <h1 className={styles.heading}>CLOSE CSS</h1>
-    <Logo />
-    <section className={styles.section}>
-      <div>1</div>
-      <div>2</div>
-      <div>3</div>
-    </section>
-    <button>Button</button>
+  <div>
+    <Nav />
+    <div className={styles.hero}>
+      <div className={styles.logo}>
+        <Logo />
+      </div>
+      <h1>A CSS preprocessor for when you've... almost got it.</h1>
+    </div>
   </div>
 );
 

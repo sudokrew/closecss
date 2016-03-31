@@ -1,7 +1,7 @@
 /* eslint max-len: 0 */
 import React, { PropTypes } from 'react';
 
-const Logo = ({ className, size = 300, fill = '#131313', opacity = 1, onClick }) => (
+const Logo = ({ className, size = 300, fill = '#252525', opacity = 1, onClick }) => (
   <svg className={className} width={`${size}`} height={`${size / 1.21}`} viewBox={`0 0 340 280`} onClick={onClick}>
     <g>
       <path d="M167.299,201.062c-2.907-2.026-6.36-3.04-10.36-3.04c-3.414,0-6.333,0.64-8.76,1.92
