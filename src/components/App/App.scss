@@ -81,6 +81,15 @@
   composes: liteBase;
 }
 
+.footer {
+  composes: darkBase;
+  padding: 2rem;
+  text-align: center;
+  h5 {
+    margin: 0;
+  }
+}
+
 
 // .section {
 //   lost-center: $container;

@@ -113,6 +113,11 @@ const App = () => (
         </div>
       </div>
     </div>
+    <div className={styles.footer}>
+      <div className={styles.container}>
+        <h5>Footer</h5>
+      </div>
+    </div>
   </div>
 );
 
