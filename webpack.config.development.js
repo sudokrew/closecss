@@ -23,6 +23,14 @@ config.devServer = {
 };
 
 config.module.loaders.push({
+  test: /\.css$/,
+  include: /node_modules/,
+  loaders: [
+    'style-loader',
+    'css-loader',
+    'postcss-loader',
+  ],
+}, {
   test: /\.scss$/,
   loaders: [
     'style-loader',

@@ -12,6 +12,13 @@ config.entry = './src/index';
 config.output.publicPath = '/';
 
 config.module.loaders.push({
+  test: /\.css$/,
+  include: /node_modules/,
+  loader: ExtractTextPlugin.extract(
+    'style-loader',
+    'css-loader!postcss-loader'
+  ),
+}, {
   test: /\.scss$/,
   loader: ExtractTextPlugin.extract(
     'style-loader',
