@@ -63,11 +63,22 @@
   text-align: center;
 }
 
-.howColumn {
+.row {
+  width: 100%;
+  lost-utility: clearfix;
+}
+
+.twoColumn {
   lost-column: 1/2;
+  text-align: left;
   h5 {
     font-weight: 600;
+    text-align: center;
   }
+}
+
+.features {
+  composes: liteBase;
 }
 
 
