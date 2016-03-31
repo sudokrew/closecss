@@ -1,11 +1,12 @@
 import React from 'react';
+import Highlight from 'react-highlight';
 import Nav from 'components/Nav';
 import Logo from 'components/Logo';
 import Button from 'components/Button';
 import styles from './App.scss';
 
 const App = () => (
-  <div className={styles.base}>
+  <div>
     <Nav />
     <div className={styles.hero}>
       <div className={styles.container}>
@@ -27,6 +28,15 @@ const App = () => (
       </div>
     </div>
     <div className={styles.install}>
+      <div className={styles.container}>
+        <h2>Install</h2>
+        <Highlight className="console">
+          {"$ npm install closecss"}
+        </Highlight>
+      </div>
+    </div>
+
+    <div className={styles.taglineBase}>
       <div className={styles.container}>
         <h2 className={styles.tagline}>A CSS preprocessor for when you've... almost got it.</h2>
       </div>

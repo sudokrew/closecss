@@ -22,7 +22,8 @@
   "dependencies": {
     "lodash": "^4.6.1",
     "react": "^0.14.7",
-    "react-dom": "^0.14.7"
+    "react-dom": "^0.14.7",
+    "react-highlight": "^0.7.0"
   },
   "devDependencies": {
     "babel-core": "^6.7.0",
