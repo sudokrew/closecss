@@ -35,7 +35,23 @@ const App = () => (
         </Highlight>
       </div>
     </div>
-
+    <div className={styles.how}>
+      <h2>How It Works</h2>
+      <div className={styles.container}>
+        <div className={styles.howColumn}>
+          <h5>You put close enough CSS in</h5>
+          <Highlight className="css">
+            {"$ npm install closecss"}
+          </Highlight>
+        </div>
+        <div className={styles.howColumn}>
+          <h5>And get close enough CSS out</h5>
+          <Highlight className="css">
+            {"$ npm install closecss"}
+          </Highlight>
+        </div>
+      </div>
+    </div>
     <div className={styles.taglineBase}>
       <div className={styles.container}>
         <h2 className={styles.tagline}>A CSS preprocessor for when you've... almost got it.</h2>

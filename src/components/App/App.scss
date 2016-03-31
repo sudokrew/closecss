@@ -58,6 +58,17 @@
   margin-bottom: 0;
 }
 
+.how {
+  composes: liteBase;
+  text-align: center;
+}
+
+.howColumn {
+  lost-column: 1/2;
+  h5 {
+    font-weight: 600;
+  }
+}
 
 
 // .section {
