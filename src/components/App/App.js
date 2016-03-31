@@ -29,7 +29,7 @@ const App = () => (
     </div>
     <div className={styles.install}>
       <div className={styles.container}>
-        <h2>Install</h2>
+        <h2>Installation</h2>
         <Highlight className="console">
           {"$ npm install closecss"}
         </Highlight>
@@ -41,13 +41,33 @@ const App = () => (
         <div className={styles.howColumn}>
           <h5>You put close enough CSS in</h5>
           <Highlight className="css">
-            {"$ npm install closecss"}
+            {"body {"} <br/>
+            {"  height: 100vh;"} <br/>
+            {"  background: somewhat('blueish');"} <br/>
+            {"  color: somewhat('orangeish');"} <br/>
+            {"  font-family: Helvetica, sans-serif;"} <br/>
+            {"}"} <br/>
+            <br/>
+            {".container {"} <br/>
+            {"  width: somewhat('largish');"} <br/>
+            {"  margin: somewhat('tallish') auto;"} <br/>
+            {"}"}
           </Highlight>
         </div>
         <div className={styles.howColumn}>
           <h5>And get close enough CSS out</h5>
           <Highlight className="css">
-            {"$ npm install closecss"}
+            {"body {"} <br/>
+            {"  height: 100vh;"} <br/>
+            {"  background: #0000FF;"} <br/>
+            {"  color: #F3A618;"} <br/>
+            {"  font-family: Helvetica, sans-serif;"} <br/>
+            {"}"} <br/>
+            <br/>
+            {".container {"} <br/>
+            {"  width: 1024px;"} <br/>
+            {"  margin: 100px auto;"} <br/>
+            {"}"}
           </Highlight>
         </div>
       </div>
