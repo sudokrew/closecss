@@ -1,8 +1,11 @@
 @import '~styles/utils/variables';
 
 .base {
-  background: $lite;
+  position: fixed;
+  width: 100%;
   padding: .8rem 0;
+  background: $lite;
+  z-index: 10;
 }
 
 .container {
