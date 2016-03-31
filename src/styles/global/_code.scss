@@ -1,0 +1,18 @@
+@import '~styles/utils/variables';
+
+code,
+kbd,
+pre,
+samp {
+  font-family: $code-font-family;
+  text-align: left;
+}
+
+pre {
+  width: 100%;
+  font-size: 1.125rem;
+}
+
+code.console {
+  padding: 1.5rem;
+}
