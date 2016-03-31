@@ -1,7 +1,14 @@
 @import '~styles/utils/variables';
 
-.base {
+.liteBase {
+  padding: 5rem 0;
   background: $lite;
+}
+
+.darkBase {
+  padding: 5rem 0;
+  background: $dark;
+  color: $lite;
 }
 
 .container {
@@ -9,7 +16,8 @@
 }
 
 .hero {
-  padding-bottom: 5rem;
+  composes: liteBase;
+  padding-top: 0;
   text-align: center;
 }
 
@@ -36,9 +44,12 @@
 }
 
 .install {
-  padding: 5rem 0;
-  background: $dark;
-  color: $lite;
+  composes: darkBase;
+  text-align: center;
+}
+
+.taglineBase {
+  composes: darkBase;
   text-align: center;
 }
 
@@ -46,6 +57,7 @@
   font-size: 3.125rem;
   margin-bottom: 0;
 }
+
 
 
 // .section {
