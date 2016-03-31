@@ -7,10 +7,11 @@
 .hero {
   composes: container;
   text-align: center;
-  h1 {
-    max-width: 720px;
-    margin: 0 auto;
-  }
+}
+
+.heroText {
+  max-width: 720px;
+  margin: 0 auto;
 }
 
 .logo {
