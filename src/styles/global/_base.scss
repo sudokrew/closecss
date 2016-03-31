@@ -1,0 +1,23 @@
+@import '~styles/utils/variables';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: $lite;
+  color: $dark;
+  font-family: $base-font-family;
+  -webkit-font-smoothing: antialiased;
+}
+
+p {
+  font-size: 1.125rem;
+}
+
+ul {
+  margin-left: 20px;
+}

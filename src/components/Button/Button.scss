@@ -1,0 +1,30 @@
+@import '~styles/utils/variables';
+
+.base {
+  display: inline-block;
+  padding: .5rem 1rem;
+  border: .125rem solid $dark;
+  margin: .5rem;
+  font-weight: 500;
+  color: $dark;
+}
+
+.shadow {
+  box-shadow: 0 .125rem .5rem 0 rgba($dark, 0.25);
+}
+
+.primary {
+  composes: base;
+  composes: shadow;
+  background: $primary;
+  border-color: $primary;
+  color: #fff;
+}
+
+.secondary {
+  composes: base;
+  composes: shadow;
+  background: $secondary;
+  border-color: $secondary;
+  color: #fff;
+}

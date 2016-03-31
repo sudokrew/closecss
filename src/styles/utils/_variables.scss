@@ -1,0 +1,16 @@
+// Colors
+@import 'colors';
+
+// Typography
+$base-font-family: "Avenir Next", Avenir, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$code-font-family: Monaco, Consolas, "Courier New", monospace;
+
+// Grid/Layout
+$contianer-width: 64rem;
+$container: $contianer-width 1rem flex;
+
+// Screen sizes
+$screen-xlarge: 'screen and (min-width: 80em)'; // 1280px
+$screen-large: 'screen and (min-width: 64em)'; // 1024px
+$screen-medium: 'screen and (min-width: 48em)'; // 768px
+$screen-small: 'screen and (min-width: 35.5em)'; // 568px

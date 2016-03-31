@@ -1,0 +1,27 @@
+@import '~styles/utils/variables';
+
+code,
+kbd,
+pre,
+samp {
+  font-family: $code-font-family;
+  text-align: left;
+}
+
+pre {
+  width: 100%;
+  box-shadow: 0 .25rem .5rem 0 rgba($dark, 0.2);
+}
+
+code.console {
+  font-size: 1.125rem;
+}
+
+code.console,
+code.css {
+  padding: 1.5rem;
+}
+
+.hljs {
+  background: #212340;
+}
