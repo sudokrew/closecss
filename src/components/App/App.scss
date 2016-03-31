@@ -9,7 +9,7 @@
 }
 
 .hero {
-  composes: container;
+  padding-bottom: 5rem;
   text-align: center;
 }
 
@@ -35,6 +35,17 @@
   margin-top: 1.5rem;
 }
 
+.install {
+  padding: 5rem 0;
+  background: $dark;
+  color: $lite;
+  text-align: center;
+}
+
+.tagline {
+  font-size: 3.125rem;
+  margin-bottom: 0;
+}
 
 
 // .section {
