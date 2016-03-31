@@ -8,8 +8,9 @@
 
 body {
   height: 100vh;
-  background: $white-smoke;
+  background: $lite;
   color: #4d4d4d;
-  font-family: Helvetica Neue, Helvetica, Arial;
+  font-family: $base-font-family;
+  -webkit-font-smoothing: antialiased;
   font-weight: 300;
 }
