@@ -16,6 +16,7 @@ const Button = ({ children, href, type, ...props }) => {
 };
 
 Button.defaultProps = {
+  type: 'base',
 };
 
 Button.propTypes = {

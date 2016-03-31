@@ -1,5 +1,9 @@
 @import '~styles/utils/variables';
 
+.base {
+  background: $lite;
+}
+
 .container {
   lost-center: $container;
 }
@@ -11,21 +15,25 @@
 
 .heroText {
   max-width: 720px;
-  margin: 0 auto;
+  margin: 1rem auto;
 }
 
 .logo {
   lost-align: center;
   width: 100%;
-  height: 60vh;
+  height: calc(60vh - 50px);
   min-height: 350px;
-  margin-top: 2rem;
+  max-height: 500px;
+  margin-top: 1rem;
   svg {
     width: 350px;
     margin-left: -1.25rem;
   }
 }
 
+.action {
+  margin-top: 1.5rem;
+}
 
 
 
