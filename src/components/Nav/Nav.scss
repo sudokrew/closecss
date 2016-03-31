@@ -1,0 +1,26 @@
+@import '~styles/utils/variables';
+
+.base {
+  background: $lite;
+}
+
+.container {
+  lost-center: $container;
+}
+
+.logo {
+  lost-column: 1/4;
+}
+
+.links {
+  lost-column: 3/4;
+}
+
+.linkList {
+  text-align: right;
+}
+
+.linkItem {
+  display: inline-block;
+  margin: 0 1rem;
+}
