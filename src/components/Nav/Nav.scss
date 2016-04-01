@@ -3,7 +3,7 @@
 .base {
   position: fixed;
   width: 100%;
-  padding: .8rem 0;
+  padding: 1.25rem 0;
   background: $lite;
   z-index: 10;
 }
@@ -14,6 +14,7 @@
 
 .logo {
   lost-column: 1/4;
+  font-size: 1.125rem;
 }
 
 .links {
