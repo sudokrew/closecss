@@ -7,6 +7,7 @@
   margin: .5rem;
   font-weight: 500;
   color: $dark;
+  border-radius: 3px;
 }
 
 .shadow {
@@ -16,15 +17,15 @@
 .primary {
   composes: base;
   composes: shadow;
-  background: $primary;
-  border-color: $primary;
-  color: #fff;
+  background: $dark;
+  border-color: $dark;
+  color: $lite;
 }
 
 .secondary {
   composes: base;
   composes: shadow;
-  background: $secondary;
-  border-color: $secondary;
-  color: #fff;
+  background: $lite;
+  border-color: $lite;
+  color: $dark;
 }
