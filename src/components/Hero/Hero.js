@@ -7,7 +7,7 @@ const Hero = () => (
   <div className={styles.hero}>
     <div className={styles.container}>
       <div className={styles.logo}>
-        <Logo />
+        <Logo fill="#FFFFFF" />
       </div>
       <div className={styles.heroText}>
         <h1>Fuck it, close enough.</h1>
