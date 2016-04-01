@@ -1,7 +1,7 @@
 {
-  "name": "close-css",
-  "version": "0.0.1",
-  "description": "CSS preprocessor for oh so closeness",
+  "name": "closecss",
+  "version": "0.1.0",
+  "description": "A CSS preprocessor for when you've.....almost got it",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,16 +10,22 @@
     "type": "git",
     "url": "https://github.com/sudokrew/closecss.git"
   },
+  "homepage": "https://github.com/sudokrew/closecss",
   "author": "Jay Won <hello@sudokrew.com> (http://sudokrew.com)",
-  "license": "MIT",
+  "preferGlobal": "true",
+  "bin": {
+    "closecss": "closecss.js"
+  },
   "bugs": {
     "url": "https://github.com/sudokrew/closecss/issues"
   },
-  "homepage": "https://github.com/sudokrew/closecss",
-  "devDependencies": {
-    "tape": "^4.5.1"
+  "license": "MIT",
+  "engines": {
+    "node": "*"
   },
   "dependencies": {
+    "cli": "^0.11.2",
+    "glob": "^7.0.3",
     "postcss": "^5.0.19"
   }
 }
