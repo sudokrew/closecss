@@ -2,12 +2,28 @@ import React from 'react';
 // import Logo from 'components/Logo';
 import styles from './Nav.scss';
 
-const social = ['Github', 'Tweet', 'Share'];
+const githubStar = (
+  <iframe src="https://ghbtns.com/github-btn.html?user=sudokrew&repo=closecss&type=star&count=true" frameBorder="0" scrolling="0" width="80px" height="20px"></iframe>
+);
+const twitter = (
+  <a href="https://twitter.com/share" className="twitter-share-button" data-url="http://closecss.io" data-text="A CSS preprocessor for when you've... almost got it." data-via="CloseCSS">
+    Tweet
+  </a>
+);
+const facebook = (
+  <div className="fb-share-button" data-href="http://closecss.io/" data-layout="button"></div>
+);
+
+const social = [
+  facebook,
+  twitter,
+  githubStar,
+];
 
 const Nav = () => {
   const navItems = social.map((c, i) => (
     <li key={i} className={styles.linkItem}>
-      <a href="#">{c}</a>
+      {c}
     </li>
   ));
 
