@@ -15,22 +15,4 @@
   color: $lite;
 }
 
-.footer {
-  composes: darkBase;
-  padding: 2rem;
-  text-align: center;
-  ul {
-    list-style: none;
-  }
-  li {
-    display: inline-block;
-  }
-  a {
-    color: $lite;
-    &:hover {
-      color: darken($lite, 5%);
-      border-bottom: 1px solid darken($lite, 5%);
-    }
-  }
-}
 
