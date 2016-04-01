@@ -11,9 +11,11 @@ samp {
 pre {
   width: 100%;
   box-shadow: 0 .25rem .5rem 0 rgba($dark, 0.2);
+  border-radius: 3px;
 }
 
 code.console {
+  background: #fafafa;
   font-size: 1.125rem;
 }
 
@@ -23,5 +25,5 @@ code.css {
 }
 
 .hljs {
-  background: #212340;
+  // background: #212340;
 }
