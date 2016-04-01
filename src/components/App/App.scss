@@ -11,8 +11,6 @@
 
 .darkBase {
   composes: base;
-  background: $dark;
+  background: linear-gradient(to right,  $gradient-left 0%, $gradient-right 100%);
   color: $lite;
 }
-
-
