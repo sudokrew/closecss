@@ -21,8 +21,10 @@ body {
   background: $lite;
   color: $dark;
   font-family: $base-font-family;
-  -webkit-font-smoothing: antialiased;
   font-weight: 500;
+  @media #{$screen-medium} {
+    -webkit-font-smoothing: antialiased;
+  }
 }
 
 a {
