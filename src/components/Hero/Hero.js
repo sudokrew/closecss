@@ -11,7 +11,7 @@ const Hero = () => (
       </div>
       <div className={styles.heroText}>
         <h1>Fuck it, close enough.</h1>
-        <p>
+        <p className={styles.content}>
           Accuracy. Precision. Exactitude. Who gives a shit?
           When done is better than perfect, this CSS preprocessor is up to task.
         </p>

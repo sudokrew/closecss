@@ -69,8 +69,8 @@ const App = () => (
           <Col size={6}>
             <h2>What is CloseCSS</h2>
             <p>
-              A CSS preprocessor that does away with the cumbersome and unnecessary . Focus on
-              functionality, or you know, whatever.
+              A CSS preprocessor that does away with the cumbersome and unnecessary.
+              Focus on functionality, or you know, whatever.
             </p>
           </Col>
           <Col size={6}>

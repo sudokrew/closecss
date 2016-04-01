@@ -6,12 +6,12 @@ const githubStar = (
   <iframe src="https://ghbtns.com/github-btn.html?user=sudokrew&repo=closecss&type=star&count=true" frameBorder="0" scrolling="0" width="80px" height="20px"></iframe>
 );
 const twitter = (
-  <a href="https://twitter.com/share" className="twitter-share-button" data-url="http://closecss.io" data-text="A CSS preprocessor for when you've... almost got it." data-via="CloseCSS">
+  <a href="https://twitter.com/share" className="twitter-share-button" data-url="http://closecss.io/" data-text="A CSS preprocessor for when you've... almost got it." data-via="CloseCSS">
     Tweet
   </a>
 );
 const facebook = (
-  <div className="fb-share-button" data-href="http://closecss.io" data-layout="button"></div>
+  <div className="fb-share-button" data-href="http://closecss.io/" data-layout="button"></div>
 );
 
 const social = [
