@@ -18,7 +18,8 @@ Col.defaultProps = {
 
 Col.propTypes = {
   children: PropTypes.any,
-  size: PropTypes.number,
+  size: PropTypes.string,
+  colWidth: PropTypes.number,
 };
 
 export default Col;
