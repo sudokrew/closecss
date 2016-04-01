@@ -12,13 +12,12 @@ const Hero = () => (
       <div className={styles.heroText}>
         <h1>Fuck it, close enough.</h1>
         <p>
-          Lorem aperiam natus soluta porro hic accusamus odit.
-          Cum voluptatem quia eaque beatae sunt?
-          Nostrum saepe deleniti quia facere mollitia.
+          Accuracy. Precision. Exactitude. Who gives a shit?
+          When done is better than perfect, this CSS preprocessor is up to task.
         </p>
         <div className={styles.action}>
-          <Button href="#" type="secondary">Learn More</Button>
-          <Button href="#" type="primary">View on GitHub</Button>
+          <Button href="#how-it-works" type="secondary">Learn More</Button>
+          <Button href="https://github.com/sudokrew/closecss" type="primary" target="_blank">View on GitHub</Button>
         </div>
       </div>
     </div>

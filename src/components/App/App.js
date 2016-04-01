@@ -15,11 +15,11 @@ const App = () => (
       <Container>
         <h2>Installation</h2>
         <Highlight className="console">
-          {"$ npm install closecss"}
+          {"$ npm install -g closecss"}
         </Highlight>
       </Container>
     </div>
-    <div className={styles.how}>
+    <div className={styles.how} id="how-it-works">
       <Container>
         <h2>How It Works</h2>
         <Row>
@@ -68,13 +68,15 @@ const App = () => (
         <Row>
           <Col size={6}>
             <h2>What is CloseCSS</h2>
-            <p>Consectetur inventore corporis nobis neque molestiae! Libero tempore ducimus
-              deleniti tenetur voluptatibus. Quos quis nostrum delectus nulla omnis tempore.</p>
+            <p>
+              A CSS preprocessor that does away with the cumbersome and unnecessary . Focus on
+              functionality, or you know, whatever.
+            </p>
           </Col>
           <Col size={6}>
             <h2>Features</h2>
-            <div className={styles.row}>
-              <div className={styles.twoColumn}>
+            <Row>
+              <Col size={6}>
                 <ul>
                   <li>tallish</li>
                   <li>whatever</li>
@@ -83,8 +85,8 @@ const App = () => (
                   <li>redish</li>
                   <li>curvish</li>
                 </ul>
-              </div>
-              <div className={styles.twoColumn}>
+              </Col>
+              <Col size={6}>
                 <ul>
                   <li>smallish</li>
                   <li>thickish</li>
@@ -93,15 +95,15 @@ const App = () => (
                   <li>farish</li>
                   <li>mediumish</li>
                 </ul>
-              </div>
-            </div>
+              </Col>
+            </Row>
           </Col>
         </Row>
       </Container>
     </div>
     <div className={styles.footer}>
       <div className={styles.container}>
-        <h5>Footer</h5>
+        <h6><a href="https://github.com/sudokrew/closecss">CloseCSS</a> &copy; 2016</h6>
       </div>
     </div>
   </div>
