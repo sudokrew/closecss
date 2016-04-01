@@ -14,19 +14,28 @@
 
 .logo {
   font-size: 18px;
+  lost-column: 1 1;
+  text-align: center;
+  margin-bottom: .5rem;
   @media #{$screen-small} {
-    lost-column: 1/4;
+    margin-bottom: 0;
+    lost-column: 1/4 2;
+    text-align: left;
   }
 }
 
 .links {
+  lost-column: 1 1;
   @media #{$screen-small} {
-    lost-column: 3/4;
+    lost-column: 3/4 2;
   }
 }
 
 .linkList {
+  margin: 0;
+  text-align: center;
   @media #{$screen-small} {
+    margin-left: 20px;
     text-align: right;
   }
 }
