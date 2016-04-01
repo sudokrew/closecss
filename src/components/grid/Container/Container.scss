@@ -1,5 +1,7 @@
 @import '../../../styles/utils/_variables.scss';
 
 .container {
+  position: relative;
+  z-index: 1;
   lost-center: $container;
 }

@@ -40,6 +40,8 @@
   left: -5rem;
   transform: translateX(-750px);
   animation: meme 2.5s ease-out 10s forwards;
+  pointer-events: none;
+  z-index: 0;
 }
 
 
