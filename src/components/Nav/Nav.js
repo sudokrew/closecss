@@ -11,7 +11,7 @@ const twitter = (
   </a>
 );
 const facebook = (
-  <div className="fb-share-button" data-href="http://closecss.io/" data-layout="button"></div>
+  <div className="fb-share-button" data-href="http://closecss.io" data-layout="button"></div>
 );
 
 const social = [
