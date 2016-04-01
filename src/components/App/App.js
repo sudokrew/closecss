@@ -5,20 +5,14 @@ import Row from 'components/grid/Row';
 import Col from 'components/grid/Col';
 import Nav from 'components/Nav';
 import Hero from 'components/Hero';
+import Installation from 'components/Installation';
 import styles from './App.scss';
 
 const App = () => (
   <div>
     <Nav />
     <Hero />
-    <div className={styles.install}>
-      <Container>
-        <h2>Installation</h2>
-        <Highlight className="console">
-          {"$ npm install -g closecss"}
-        </Highlight>
-      </Container>
-    </div>
+    <Installation />
     <div className={styles.how} id="how-it-works">
       <Container>
         <h2>How It Works</h2>
