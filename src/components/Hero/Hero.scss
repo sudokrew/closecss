@@ -1,7 +1,7 @@
 @import '../../styles/utils/variables';
 
 .hero {
-  composes: liteBase from 'components/App/App.scss';
+  composes: darkBase from 'components/App/App.scss';
   padding-top: 0;
   text-align: center;
 }

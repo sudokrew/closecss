@@ -1,14 +1,14 @@
 @import '../../styles/utils/_variables.scss';
 
 .base {
-  composes: darkBase from 'components/App/App.scss';
+  composes: liteBase from 'components/App/App.scss';
   padding: 2rem !important;
   text-align: center;
   a {
-    color: $lite;
+    color: $dark;
     &:hover {
-      color: darken($lite, 5%);
-      border-bottom: 1px solid darken($lite, 5%);
+      color: darken($dark, 5%);
+      border-bottom: 1px solid darken($dark, 5%);
     }
   }
 }
