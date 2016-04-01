@@ -15,11 +15,6 @@
   color: $lite;
 }
 
-
-.features {
-  composes: liteBase;
-}
-
 .footer {
   composes: darkBase;
   padding: 2rem;
