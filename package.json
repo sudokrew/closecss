@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jaywon/close-css.git"
+    "url": "https://github.com/sudokrew/closecss.git"
   },
-  "author": "Jay Won <jason@sudokrew.com> (http://sudokrew.com)",
+  "author": "Jay Won <hello@sudokrew.com> (http://sudokrew.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jaywon/close-css/issues"
+    "url": "https://github.com/sudokrew/closecss/issues"
   },
-  "homepage": "https://github.com/jaywon/close-css",
+  "homepage": "https://github.com/sudokrew/closecss",
   "devDependencies": {
     "tape": "^4.5.1"
   },
