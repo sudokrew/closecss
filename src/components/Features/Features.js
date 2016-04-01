@@ -8,17 +8,17 @@ const Features = () => (
   <div className={styles.base}>
     <Container>
       <Row>
-        <Col size={6}>
+        <Col size="md" colWidth={6}>
           <h2>What is CloseCSS</h2>
           <p>
             A CSS preprocessor that does away with the cumbersome and unnecessary.
             Focus on functionality, or you know, whatever.
           </p>
         </Col>
-        <Col size={6}>
+        <Col size="md" colWidth={6}>
           <h2>Features</h2>
           <Row>
-            <Col size={6}>
+            <Col size="xs" colWidth={6}>
               <ul>
                 <li>tallish</li>
                 <li>whatever</li>
@@ -28,7 +28,7 @@ const Features = () => (
                 <li>curvish</li>
               </ul>
             </Col>
-            <Col size={6}>
+            <Col size="xs" colWidth={6}>
               <ul>
                 <li>smallish</li>
                 <li>thickish</li>

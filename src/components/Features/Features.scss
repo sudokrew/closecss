@@ -1,4 +1,7 @@
 .base {
   composes: darkBase from 'components/App/App.scss';
+  p {
+    margin-bottom: 2rem;
+  }
 }
 

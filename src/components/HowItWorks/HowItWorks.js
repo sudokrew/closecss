@@ -10,7 +10,7 @@ const Hero = () => (
     <Container>
       <h2>How It Works</h2>
       <Row>
-        <Col size={6}>
+        <Col size="md" colWidth={6}>
           <h5>You put close enough CSS in</h5>
           <Highlight className="css">
             {"body {"} <br/>
@@ -26,7 +26,7 @@ const Hero = () => (
             {"}"}
           </Highlight>
         </Col>
-        <Col size={6}>
+        <Col size="md" colWidth={6}>
           <h5>And get close enough CSS out</h5>
           <Highlight className="css">
             {"body {"} <br/>

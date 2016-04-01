@@ -1,9 +1,9 @@
 import React, { PropTypes } from 'react';
 import styles from './Col.scss';
 
-const Col = ({ children, size, ...props }) => (
+const Col = ({ children, size, colWidth, ...props }) => (
   <div
-    className={styles[`column-${size}`]}
+    className={styles[`${size}-${colWidth}`]}
     {...props}
   >
     {children}
@@ -12,7 +12,8 @@ const Col = ({ children, size, ...props }) => (
 
 
 Col.defaultProps = {
-  size: '12',
+  size: 'column',
+  colWidth: 12,
 };
 
 Col.propTypes = {

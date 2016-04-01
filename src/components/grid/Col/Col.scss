@@ -1,8 +1,17 @@
+@import '../../../styles/utils/variables';
+
 .column-12 {
   lost-column: 1;
 }
 
-.column-6 {
+.md-6 {
+  lost-column: 1;
+  @media #{$screen-medium} {
+    lost-column: 1/2;
+  }
+}
+
+.xs-6 {
   lost-column: 1/2;
 }
 
