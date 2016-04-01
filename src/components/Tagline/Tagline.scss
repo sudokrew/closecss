@@ -1,0 +1,9 @@
+.base {
+  composes: darkBase from 'components/App/App.scss';
+  text-align: center;
+}
+
+.tagline {
+  font-size: 3.125rem;
+  margin-bottom: 0;
+}

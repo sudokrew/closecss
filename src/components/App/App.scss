@@ -15,15 +15,6 @@
   color: $lite;
 }
 
-.taglineBase {
-  composes: darkBase;
-  text-align: center;
-}
-
-.tagline {
-  font-size: 3.125rem;
-  margin-bottom: 0;
-}
 
 .features {
   composes: liteBase;

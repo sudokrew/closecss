@@ -6,6 +6,7 @@ import Nav from 'components/Nav';
 import Hero from 'components/Hero';
 import Installation from 'components/Installation';
 import HowItWorks from 'components/HowItWorks';
+import Tagline from 'components/Tagline';
 import styles from './App.scss';
 
 const App = () => (
@@ -14,11 +15,7 @@ const App = () => (
     <Hero />
     <Installation />
     <HowItWorks />
-    <div className={styles.taglineBase}>
-      <Container>
-        <h2 className={styles.tagline}>A CSS preprocessor for when you've... almost got it.</h2>
-      </Container>
-    </div>
+    <Tagline />
     <div className={styles.features}>
       <Container>
         <Row>
