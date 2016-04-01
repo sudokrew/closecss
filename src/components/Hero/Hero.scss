@@ -1,6 +1,7 @@
 @import '../../styles/utils/variables';
 
 .hero {
+  position: relative;
   composes: darkBase from 'components/App/App.scss';
   padding-top: 0;
   text-align: center;
@@ -31,4 +32,22 @@
 
 .action {
   margin-top: 1.5rem;
+}
+
+.meme {
+  position: absolute;
+  bottom: 0;
+  left: -5rem;
+  transform: translateX(-750px);
+  animation: meme 3s ease-out 10s forwards;
+}
+
+
+@keyframes meme {
+  0% {
+    transform: translateX(-750px);
+  }
+  100% {
+    transform: translate(0);
+  }
 }
