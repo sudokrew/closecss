@@ -1,6 +1,34 @@
 # CloseCSS
 A CSS preprocessor for when you've.....almost got it
 
+## Install
+
+```
+npm install -g closecss
+```
+
+## How-to
+
+CloseCSS runs through a CLI to compile your `.close` file into an outputted `.css` file.
+
+If you ever get stuck you can use `closecss -h`.
+
+### Simple
+
+Will output your `.close` file automatically into a `dest/` directory.
+
+```
+`closecss **/*.close`
+```
+
+### Advanced
+
+Will output `css` file to specific directory of your choosing.
+
+```
+closecss **/*.close --output your/target/dir
+```
+
 ### Properties Currently Supported
 
 - `color`
