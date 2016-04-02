@@ -22,6 +22,7 @@ body {
   color: $dark;
   font-family: $base-font-family;
   font-weight: 500;
+  overflow-x: hidden;
   @media #{$screen-medium} {
     -webkit-font-smoothing: antialiased;
   }
