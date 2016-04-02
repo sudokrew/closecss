@@ -9,7 +9,7 @@ const Hero = () => (
   <div className={styles.hero}>
     <Container>
       <div className={styles.logo}>
-        <Logo fill="#FFFFFF" />
+        <Logo fill="#FFFFFF" animate />
       </div>
       <div className={styles.heroText}>
         <h1>Fuck it, close enough.</h1>

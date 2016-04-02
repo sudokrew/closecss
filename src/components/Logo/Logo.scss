@@ -1,0 +1,47 @@
+.animate {
+  // animation: fadeIn 1s;
+  g:nth-child(2) path:first-child {
+    animation: flicker 7s 15s infinite alternate;
+  }
+}
+
+@keyframes flicker {
+  19% {
+    fill: #fff;
+  }
+  20% {
+    fill: rgba(#fff, .15);
+  }
+  21% {
+    fill: #fff;
+  }
+  42% {
+    fill: #fff;
+  }
+  43% {
+    fill: rgba(#fff, .15);
+  }
+  44% {
+    fill: #fff;
+  }
+  46% {
+    fill: #fff;
+  }
+  47% {
+    fill: rgba(#fff, .15);
+  }
+  49% {
+    fill: #fff;
+  }
+}
+
+// @keyframes fadeIn {
+//   0% {
+//     opacity: 0;
+//     transform: translateY(100px);
+//   }
+//   100% {
+//     opacity: 1;
+//     transform: translateY(0);
+//   }
+// }
